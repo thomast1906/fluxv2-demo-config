@@ -42,7 +42,7 @@ spec:
       port: 80
       targetPort: 80
 ---
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1
 kind: Ingress
 metadata:
   name: azure-vote-front
@@ -52,7 +52,10 @@ spec:
   rules:
     - http:
         paths:
-          - path: /
-            backend:
-              serviceName: azure-vote-front
-              servicePort: 80
+          - backend:
+              service:
+                name: azure-vote-front
+                port:
+                  number: 80
+            path: /
+            pathType: ImplementationSpecific
