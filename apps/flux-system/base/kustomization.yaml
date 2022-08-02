@@ -19,4 +19,4 @@ patches:
       # Add this if you are using aad pod identity with managed identity
     - op: add 
       path: /spec/template/metadata/labels/aadpodidbinding
-      value: brownbaggitopsaks-mi
+      value: brownbaggitopsaks-acr-credentials-sync
