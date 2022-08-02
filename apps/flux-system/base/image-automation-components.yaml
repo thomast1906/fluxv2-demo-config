@@ -7,7 +7,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
-    app.kubernetes.io/version: v0.16.1
+    app.kubernetes.io/version: v0.18.3
   name: imagepolicies.image.toolkit.fluxcd.io
 spec:
   group: image.toolkit.fluxcd.io
@@ -592,7 +592,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
-    app.kubernetes.io/version: v0.16.1
+    app.kubernetes.io/version: v0.18.3
   name: imagerepositories.image.toolkit.fluxcd.io
 spec:
   group: image.toolkit.fluxcd.io
@@ -1135,7 +1135,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
-    app.kubernetes.io/version: v0.16.1
+    app.kubernetes.io/version: v0.18.3
   name: imageupdateautomations.image.toolkit.fluxcd.io
 spec:
   group: image.toolkit.fluxcd.io
@@ -1934,7 +1934,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
-    app.kubernetes.io/version: v0.16.1
+    app.kubernetes.io/version: v0.18.3
   name: image-automation-controller
   namespace: flux-system
 ---
@@ -1944,7 +1944,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
-    app.kubernetes.io/version: v0.16.1
+    app.kubernetes.io/version: v0.18.3
   name: image-reflector-controller
   namespace: flux-system
 
@@ -1955,7 +1955,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
-    app.kubernetes.io/version: v0.16.1
+    app.kubernetes.io/version: v0.18.3
     control-plane: controller
   name: image-automation-controller
   namespace: flux-system
@@ -2030,7 +2030,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
-    app.kubernetes.io/version: v0.16.1
+    app.kubernetes.io/version: v0.18.3
     control-plane: controller
   name: image-reflector-controller
   namespace: flux-system
