@@ -15,4 +15,4 @@ patches:
   patch: |-
     - op: add 
       path: /spec/template/metadata/labels/aadpodidbinding
-      value: brownbaggitopsaks-mi
+      value: /subscriptions/04109105-f3ca-44ac-a3a7-66b4936112c3/resourcegroups/brownbaggitopsaks-mi-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/brownbaggitopsaks-mi
