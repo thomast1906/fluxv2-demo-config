@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   # - ../voting-app-backend/image-policy.yaml
   # - ../voting-app-backend/image-repo.yaml
-  - ../voting-app-frontend/image-policy.yaml
-  - ../voting-app-frontend/image-repo.yaml
+  # - ../voting-app-frontend/image-policy.yaml
+  # - ../voting-app-frontend/image-repo.yaml
