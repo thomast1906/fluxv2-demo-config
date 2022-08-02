@@ -2,5 +2,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: flux-system
 resources:
-  - registry-credential-sync/azurebacktoschool/kustomize.yaml
+  - registry-credential-sync/brownbaggitopsaks/kustomize.yaml
   - ../../voting-app/automation

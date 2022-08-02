@@ -3,7 +3,7 @@ kind: ImageRepository
 metadata:
   name: azure-vote-front
 spec:
-  image: azureback2schoolacr.azurecr.io/azure-vote-front
+  image: brownbaggitopsaksacr.azurecr.io/azure-vote-front
   interval: 1m0s
   secretRef:
-    name: azurebacktoschool-creds
+    name: brownbaggitopsaks-creds

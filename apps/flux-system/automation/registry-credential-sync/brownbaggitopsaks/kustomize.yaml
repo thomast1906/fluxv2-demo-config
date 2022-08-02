@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: azurebacktoschool-credentials-sync
+  name: brownbaggitopsaks-credentials-sync
   namespace: flux-system
 spec:
   interval: 10m0s
@@ -11,4 +11,4 @@ spec:
     name: flux-config
     namespace: flux-system
   validation: none
-  path: ./apps/flux-system/automation/registry-credential-sync/azurebacktoschool
+  path: ./apps/flux-system/automation/registry-credential-sync/brownbaggitopsaks
