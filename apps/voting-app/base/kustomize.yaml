@@ -1,0 +1,18 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
+kind: Kustomization
+metadata:
+  name: voting-app
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: flux-config
+    namespace: flux-system
+  validation: none
+  path: ./apps/voting-app/${ENVIRONMENT}
+  postBuild:
+    substitute:
+      NAMESPACE: "votingapp"
+      CLUSTER_FULL_NAME: "${ENVIRONMENT}-${CLUSTER}"
