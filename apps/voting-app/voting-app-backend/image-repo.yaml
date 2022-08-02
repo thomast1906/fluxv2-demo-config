@@ -4,6 +4,3 @@ metadata:
   name: azure-vote-backend
 spec:
   image: brownbaggitopsaksacr.azurecr.io/azure-vote-backend
-  interval: 1m0s
-  secretRef:
-    name: brownbaggitopsaks-creds

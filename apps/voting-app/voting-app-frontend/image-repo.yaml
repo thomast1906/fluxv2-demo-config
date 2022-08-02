@@ -4,6 +4,3 @@ metadata:
   name: azure-vote-front
 spec:
   image: brownbaggitopsaksacr.azurecr.io/azure-vote-front
-  interval: 1m0s
-  secretRef:
-    name: brownbaggitopsaks-creds
