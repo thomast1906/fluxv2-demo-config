@@ -4,5 +4,3 @@ resources:
   - gotk-components.yaml
   - kustomize.yaml
   - flux-config-gitrepo.yaml
-  - image-automation-components.yaml
-  - image-update-automation.yaml
