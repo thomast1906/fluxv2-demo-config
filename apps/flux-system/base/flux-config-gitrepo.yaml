@@ -10,4 +10,4 @@ spec:
     branch: main
   secretRef:
     name: flux-git-details
-  url: https://git@github.com/thomast1906/fluxv2-demo-config
+  url: https://github.com/thomast1906/fluxv2-demo-config
