@@ -52,8 +52,6 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
-        pathType: Exact
         backend:
           service:
             name: azure-vote-front
