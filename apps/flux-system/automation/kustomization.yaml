@@ -4,3 +4,8 @@ namespace: flux-system
 resources:
   - registry-credential-sync/brownbaggitopsaks/kustomize.yaml
   - ../../voting-app/automation
+patches:
+  - path: brownbaggitopsaks-image-repo.yaml.yaml
+    target:
+      kind: ImageRepository
+      annotationSelector: hmcts.github.com/image-registry != hmctsprivate,hmcts.github.com/image-registry != hmctssandbox
